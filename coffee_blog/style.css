@@ -1,0 +1,94 @@
+/* global */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    line-height: 2;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* utilization */
+
+
+/* header */
+.site-init{
+    background-image: url("./img/banner.jpg");
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+/* main */
+.container, .courses {
+    margin-left: 20px;
+    text-align: center;
+}
+
+/* section */
+.courses{
+    line-height: 2;
+    margin-bottom: 12px;
+}
+
+/* buttons */
+
+.container button {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    padding: 6px 18px;
+    background-color: black;
+    color: #f9f7f3;
+    border-radius: 6px;
+}
+
+.courses button{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #9c6644;
+    color: #f9f7f3;
+    padding: 6px 14px;
+    border-radius: 6px;
+}
+
+
+/* footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+}
+
+footer h2 {
+    font-size: 60px;
+    margin-bottom: 18px;
+}
+
+
+footer li a {
+    text-decoration: none;
+    color: white;
+    margin: 10px 25px;
+}
+
+footer ul {
+    font-size: 25px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
